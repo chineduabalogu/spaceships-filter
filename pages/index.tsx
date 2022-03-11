@@ -4,9 +4,7 @@ import SpaceshipApp from "../components/spaceship-app";
 import styles from "../styles/Home.module.css";
 
 export async function getServerSideProps() {
-  const res = await fetch(
-    "https://spaceships-filter.vercel.app/api/spaceships"
-  );
+  const res = await fetch("https://api.npoint.io/4416b990ded0241f7c38");
   const spaceships = await res.json();
 
   return {
