@@ -96,6 +96,7 @@ export default function SpaceshipsContainer({
     return arr;
   };
 
+  // test
   useEffect(() => {
     if (!queryObjectInvalid(query)) {
       let conditions = buildConditions(query);
