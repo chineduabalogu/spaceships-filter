@@ -1,5 +1,6 @@
 {
   "name": "spaceships-filter",
+  "description": "Spaceship filter app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
