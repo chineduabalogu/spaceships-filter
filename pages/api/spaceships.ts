@@ -43,7 +43,7 @@ const responseData: SpaceShip[] = [
     speed: 72,
     color: "white",
     dom: new Date(1990, 6, 1),
-    laserBeam: true,
+    laserBeam: false,
   },
 ];
 
